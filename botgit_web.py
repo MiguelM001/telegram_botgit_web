@@ -82,13 +82,13 @@ def main():
     cont=0
     
     # Obtener el token del bot de Telegram
-    token = "6656550681:AAG5EGPK2amAOGWLox1YnEx6JG9W2lRdK04"
+    token = "<COLOCAR_TOKEN>"
 
     # Crear un bot de Telegram
     bot = telepot.Bot(token)
 
     # Obtener el ID del chat al que se enviará el mensaje
-    chat_id = "-4184652144"
+    chat_id = "<COLOCAR_ID_CHAT>"
 
     # Bucle infinito que envía el mensaje cada 10 minutos
     while True:
